@@ -1,28 +1,16 @@
-upd on 2026.6.18：已更新到 2.0 版，优化错误处理、奖项认证显示、tag 显示及样式。
+`lg-fckecker v5.0`
 
-upd on 2026.6.20：已更新到 3.0 版，修复 xcpc 奖项认证颜色问题，支持一键回敬与回关。
-
-upd on 2026.6.21：已更新到 4.0 版，支持[自定义 badge](https://www.luogu.com.cn/problem/U694090)。
-
-这是一个小插件，洛谷取关提醒器，可以~~快速~~（？慢速）检测近期有谁取关了你。感谢 @[ygg_pls](https://www.luogu.com.cn/user/1691170) 提供的 Idea！
-
-follower-checker ~~简称 fcker~~。
-
-```js
-// @name            lg-fcker - 洛谷取关提醒器
-// @version         4.3
-// @license         GNU GPLv3
-```
+这是一个小插件，洛谷取关提醒器，可以~~快速~~（？慢速）检测近期有谁取关了你。
 
 ### 安装方法
 
-**注意粉丝越多，需要向洛谷发送的请求越多。如果您的粉丝较多，插件会在短时间内向洛谷发送大量请求。所以不推荐粉丝数极多的网红使用。**
+**注意粉丝越多，需要向洛谷发送的请求越多。如果您的粉丝较多，插件会在短时间内向洛谷发送大量请求。所以不推荐粉丝数极多的用户使用。**
 
 **鉴于查询时会向洛谷服务器发送大量请求，已将每日列表缓存以确保每日最多查询一次。**
 
-首先你需要一个脚本管理器，然后在[洛谷](https://www.luogu.com.cn/article/ugc80dim)或 [Github](https://github.com/Gary-0925/lg-fcker/blob/main/main.js) 复制脚本代码，并粘贴保存新脚本。或者您也可以前往 [GreasyFork](https://greasyfork.org/zh-CN/scripts/582602-lg-fcker-%E6%B4%9B%E8%B0%B7%E5%8F%96%E5%85%B3%E6%8F%90%E9%86%92%E5%99%A8) 安装。
+首先你需要一个脚本管理器，然后在[洛谷](https://www.luogu.com.cn/article/ugc80dim)或[洛谷档案馆](https://www.luogu.ac.cn/article/ugc80dim)或 [Github](https://github.com/Gary-0925/lg-fckecker/blob/main/main.js) 复制脚本代码，并粘贴保存新脚本。或者您也可以前往 [GreasyFork](https://greasyfork.org/zh-CN/scripts/582602) 安装。
 
-核心部分人工编写，部分 css 使用 Gemini 辅助，好用就资瓷一下吧。
+核心部分人工编写，部分 css 使用 Gemini 辅助，好用就去 Github 点亮 star 蟹蟹喵。
 
 ### 使用方法
 
@@ -37,16 +25,4 @@ follower-checker ~~简称 fcker~~。
 - **「对比」**，它的作用是比较当前粉丝列表和本地储存中上次储存的粉丝列表的差异。注意需要上次储存过粉丝列表才能使用。
 - **「覆盖旧列表」**，它的作用是用当前粉丝列表覆盖本地储存中上次储存的粉丝列表。
 
-~~没错我 css 就是 fvv 所以看不惯就自己改吧。~~
-
-### 原理解析
-
-~~要不是为了凑字数我写这个作甚……~~
-
-本脚本含有大量异步处理，故可以作为 js 异步使用的学习与练习。
-
-呃啊先挂这吧以后再写。
-
-### 祝所有人的粉丝只增不减！
-
-### [附：自定义 badge](https://www.luogu.com.cn/problem/U694090)
+~~css 很 fvv 所以看不惯就自己改吧。~~
