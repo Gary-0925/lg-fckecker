@@ -8,7 +8,7 @@
 
 **鉴于查询时会向洛谷服务器发送大量请求，已将每日列表缓存以确保每日最多查询一次。**
 
-首先你需要一个脚本管理器，然后在[洛谷](https://www.luogu.com.cn/article/ugc80dim)或[洛谷档案馆](https://www.luogu.ac.cn/article/ugc80dim)或 [Github](https://github.com/Gary-0925/lg-fckecker/blob/main/main.js) 复制脚本代码，并粘贴保存新脚本。或者您也可以前往 [GreasyFork](https://greasyfork.org/zh-CN/scripts/582602) 安装。
+首先你需要一个脚本管理器，然后在[洛谷](https://www.luogu.com.cn/article/ugc80dim)或[洛谷档案馆](https://www.luogu.ac.cn/article/ugc80dim)或 [Github](https://github.com/Gary-0925/lg-fckecker/blob/main/main.js) 或 [Github raw](https://raw.githubusercontent.com/Gary-0925/lg-fckecker/refs/heads/main/main.js) 复制脚本代码，并粘贴保存新脚本。或者您也可以前往 [GreasyFork](https://greasyfork.org/zh-CN/scripts/582602) 安装。
 
 核心部分人工编写，部分 css 使用 Gemini 辅助，好用就去 Github 点亮 star 蟹蟹喵。
 
